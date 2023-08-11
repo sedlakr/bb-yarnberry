@@ -1,0 +1,29 @@
+{
+  "name": "bb-yarn2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.tsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bobril": {
+    "bbVersion": "2.8.2",
+    "tsVersion": "5.1.6",
+    "dependencies": "disable",
+    "compilerOptions": {
+      "strict": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      "typeRoots": [],
+      "declaration": true
+    }
+  },
+  "dependencies": {
+    "bobril": "*"
+  },
+  "author": "",
+  "license": "ISC",
+  "packageManager": "yarn@3.6.1"
+}
