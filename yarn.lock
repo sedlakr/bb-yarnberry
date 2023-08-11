@@ -10,6 +10,7 @@ __metadata:
   resolution: "bb-yarn2@workspace:."
   dependencies:
     bobril: "*"
+    bobwai--color: "*"
   languageName: unknown
   linkType: soft
 
@@ -17,5 +18,22 @@ __metadata:
   version: 20.5.1
   resolution: "bobril@npm:20.5.1"
   checksum: 84b5aedbe7cb046af6124630ff88937c33b88d11598d7d8a12103e1e36fbe093624a3cbf778888fee63455eac114991301f25666be4897896324c0ef6e9956e4
+  languageName: node
+  linkType: hard
+
+"bobwai--color-operations@npm:*":
+  version: 5.0.0
+  resolution: "bobwai--color-operations@npm:5.0.0"
+  checksum: c6f788fbd38d9a98a90376b27e100c772389cf9d55ed7d29bb87a5b464fda53808b9d5f2cd23dba4a68316d2af9edbfd0375c7586853cc930fd776038b9384db
+  languageName: node
+  linkType: hard
+
+"bobwai--color@npm:*":
+  version: 4.10.0
+  resolution: "bobwai--color@npm:4.10.0"
+  dependencies:
+    bobril: "*"
+    bobwai--color-operations: "*"
+  checksum: 94752258c34708babc23eab606e1f359804840ebb02bb8cd5d201ca4fdf24628fe14cd2bd360505c700d491535b9809b3f13d280dc1d6f2cef9bad780867d889
   languageName: node
   linkType: hard
